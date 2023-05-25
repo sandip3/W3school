@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table_header</title>
+    <style>
+      * {
+        text-transform: capitalize;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid blueviolet;
+        /* border-collapse: collapse; */
+      }
+      h1 {
+        text-align: center;
+      }
+      body {
+        background-color: lightskyblue;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>align Table</h1>
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+    <h1>vertical Table</h1>
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+      </tr>
+      <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h1>Multiple column align</h1>
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <tr>
+        <th colspan="2">name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h1>Multiple column vertical</h1>
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <tr>
+        <th rowspan="2">name</th>
+        <td>Jill</td>
+        <td>Eve</td>
+      </tr>
+      <tr>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h1>caption</h1>
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <caption>
+        this is caption
+      </caption>
+      <tr>
+        <th>number</th>
+        <th>task</th>
+        <th>time</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>drink water</td>
+        <td>1.0.pm</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Eat food</td>
+        <td>2.0.pm</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h1>cellpadding</h1>
+
+    <br />
+    <hr />
+    <br />
+    <table style="width: 100%">
+      <tr>
+        <th style="padding: 1vh">Firstname</th>
+        <th style="padding: 1vh">Lastname</th>
+        <th style="padding: 1vh">Age</th>
+      </tr>
+      <tr>
+        <td style="padding: 1vh">Jill</td>
+        <td style="padding: 1vh">Smith</td>
+        <td style="padding: 1vh">50</td>
+      </tr>
+      <tr>
+        <td style="padding: 1vh">Eve</td>
+        <td style="padding: 1vh">Jackson</td>
+        <td style="padding: 1vh">94</td>
+      </tr>
+      <tr>
+        <td style="padding: 1vh">John</td>
+        <td style="padding: 1vh">Doe</td>
+        <td style="padding: 1vh">80</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <h1>Cellspacing</h1>
+
+    <br />
+    <hr />
+    <br />
+
+    <table style="width: 100%; border-spacing: 30px">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table>
+  </body>
+</html>

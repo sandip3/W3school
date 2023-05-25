@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: purple;
+        counter-reset: a;
+      }
+      table {
+        width: 60%;
+        margin: auto;
+      }
+      table,
+      th,
+      td {
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 3px solid black;
+      }
+      tr:nth-child(even) {
+        background-color: peru;
+      }
+      tr:nth-child(odd) {
+        background-color: orangered;
+      }
+      a {
+        color: palegoldenrod;
+        text-shadow: 5px 5px 5px blue;
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+      }
+      a:visited {
+        color: red;
+      }
+      a:visited:hover {
+        background-color: white;
+        color: darkblue;
+        text-shadow: 5px 5px 5px lightblue;
+        font-size: 50px;
+      }
+      a:hover {
+        background-color: black;
+        text-shadow: 5px 5px 5px red;
+        color: lime;
+        font-size: 50px;
+      }
+      h4::before {
+        counter-increment: a;
+        content: Counter(a);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <a href="Basic Button Styling.html"><h4>Basic Button Styling</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Button Colors"><h4>Button Colors</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Button Sizes.html"><h4>Button Sizes</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Rounded Buttons.html"><h4>Rounded Buttons</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Hoverable Buttons.html"><h4>Hoverable Buttons</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Disabled Buttons.html"><h4>Disabled Buttons</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Button Width.html"><h4>Button Width</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Button Groups.html"><h4>Button Groups</h4></a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <a href="Bordered Button Group.html"
+            ><h4>Bordered Button Group</h4></a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Vertical Button Group.html"
+            ><h4>Vertical Button Group</h4></a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Button on Image.html"><h4>Button on Image</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Animated Button/main.html"><h4>Animated Buttons</h4></a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

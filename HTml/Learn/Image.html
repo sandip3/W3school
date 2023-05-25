@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iamge</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /* img {
+      width: 49%;
+      display: inline-block;
+    } */
+    p,pre{
+      background-color: blueviolet;
+      font-size: 4vh;
+      text-align: center;
+    }
+  </style>
+  <body
+    style="
+      width: 100%;
+      background: url(/Photo/1.jpg);
+      color: white;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    "
+  >
+    <pre style="font-size: 2vh">
+
+        <pre>
+
+        Use the HTML "map" element to define an image map
+        Use the HTML "area" element to define the clickable areas in the image map
+        Use the HTML usemap attribute of the "img" element to point to an image map
+    
+        </pre>
+
+        <pre>
+            "img" 	Defines an image
+            "map" 	Defines an image map
+            "area" 	Defines a clickable area inside an image map
+            "picture" 	Defines a container for multiple image resources
+        </pre>
+
+        <hr><br>
+        Use the HTML "IMG" element to define an image
+        Use the HTML src attribute to define the URL of the image
+        Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+        Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+        Use the CSS float property to let the image float to the left or to the right
+    
+    </pre>
+
+    <pre style="font-size: 2vh">
+        The HTML "img" tag is used to embed an image in a web page.
+
+        Images are not technically inserted into a web page; images are linked to web pages. The "img" tag creates a holding space for the referenced image.
+        
+        The "img" tag is empty, it contains attributes only, and does not have a closing tag.
+        
+        The "img" tag has two required attributes:
+        
+            src - Specifies the path to the image
+            alt - Specifies an alternate text for the image
+        </pre
+    >
+    <hr />
+    <br />
+
+    <img src="/Photo/1.jpg" alt="anime" title="anime" style="width: 60vh" />
+    <pre style="font-size: 2vh">
+        The required src attribute specifies the path (URL) to the image.
+        
+        Note: When a web page loads, it is the browser,
+        at that moment, that gets the image from a web server and inserts it into the page.
+        Therefore, make sure that the image actually stays in the same spot in relation to the web page,
+        otherwise your visitors will get a broken link icon.
+        The broken link icon and the alt text are shown if the browser cannot find the image.
+    </pre>
+    <hr />
+    <br />
+    <img src="/Photo/2.jpg" alt="anime" title="anime" width="600px" />
+    <pre>
+        <h1>Width and Height, or Style?</h1>
+        The width, height, and style attributes are all valid in HTML.
+        
+        However, we suggest using the style attribute. It prevents styles sheets from changing the size of images
+        
+    </pre>
+    <hr />
+    <br />
+
+    <p>we can also put gif file in this</p>
+    <p>this is "img" and "gif" useing "img" tag</p>
+    <br /><br />
+    <h1 style="text-align: center; color: blueviolet">ken kanaki</h1>
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1482823918-2b849dda1049c695cd5ed831f6087d4e.jpeg"
+      alt="ken kanaki"
+    />
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1463489522-08c92d2b5d82749051c3b89a4ed5a6d5.gif"
+      alt="ken kanaki"
+    />
+    <hr />
+    <br />
+
+    <h1 style="text-align: center; color: blue">Sakamoto Desu Ga</h1>
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1463922729-dbf01b5c23ba60dceaf2dcb0706291e2.jpeg"
+      alt="Sakamoto Desu Ga"
+    />
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1463922750-9c9fe8554c9af2867effb35e6dd11528.gif"
+      alt="Sakamoto Desu Ga"
+    />
+
+    <hr />
+    <br />
+
+    <h1 style="text-align: center; color: white">
+      Code Geass: Lelouch of the Rebellion
+    </h1>
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1465391061-f89073e3e2be76dd43eab88fd3427f24.jpeg"
+      alt="Code Geass: Lelouch of the Rebellion"
+    />
+    <img
+      src="https://cdn.myanimelist.net/s/common/uploaded_files/1465391083-bf2ad705c6ecef140946631f0aaab77f.gif"
+      alt="Code Geass: Lelouch of the Rebellion"
+    />
+
+    <hr />
+    <br />
+    <a href="https://www.google.com"
+      ><img
+        src="https://c.tenor.com/wwPXESahlvcAAAAC/greys-anatomy-megan-hunt.gif"
+        alt="puch it"
+        title="push it for google"
+    /></a>
+
+    <hr />
+    <br />
+
+    <h2>Floating Images</h2>
+    <p><strong>Float the image to the right:</strong></p>
+
+    <p>
+      <img
+        src="https://www.w3schools.com/html/smiley.gif"
+        alt="Smiley face"
+        style="float: right; width: 42px; height: 42px"
+      />
+      A paragraph with a floating image. A paragraph with a floating image. A
+      paragraph with a floating image.
+    </p>
+
+    <p><strong>Float the image to the left:</strong></p>
+    <p>
+      <img
+        src="https://www.w3schools.com/html/smiley.gif"
+        alt="Smiley face"
+        style="float: left; width: 42px; height: 42px"
+      />
+      A paragraph with a floating image. A paragraph with a floating image. A
+      paragraph with a floating image.
+    </p>
+
+    <br />
+    <br />
+
+    <hr />
+    <br />
+    <p style="font-size: 5vh; text-align: center">Image Maps</p>
+    <br />
+
+    <h2>Image Maps</h2>
+    <p>
+      Click on the computer, the phone, or the cup of coffee to go to a new page
+      and read more about the topic
+    </p>
+
+    <p>
+      The image is inserted using the "img" tag. The only difference from other
+      images is that you must add a "usemap" attribute:
+    </p>
+    <p>
+      The "usemap" value starts with a hash tag "#" followed by the name of the
+      "image map", and is used to create a relationship between the "image" and
+      the "image map".
+    </p>
+    <br /><br />
+    <br /><br />
+
+    <!-- Image Map Generated by http://www.image-map.net/ -->
+    <img
+      src="https://www.w3schools.com/html/workplace.jpg"
+      usemap="#image-map"
+    />
+
+    <map name="image-map">
+      <area
+        target="_blank"
+        alt="Computer"
+        title="Computer"
+        href="https://www.w3schools.com/html/computer.htm"
+        coords="275,351,31,42"
+        shape="rect"
+      />
+      <area
+        target="_blank"
+        alt="Phone"
+        title="Phone"
+        href="https://www.w3schools.com/html/phone.htm"
+        coords="291,172,336,247"
+        shape="rect"
+      />
+      <area
+        target="_blank"
+        alt="Coffee"
+        title="Coffee"
+        href="https://www.w3schools.com/html/coffee.htm"
+        coords="336,301,46"
+        shape="circle"
+      />
+    </map>
+
+    <hr />
+    <br />
+    <h2>The picture Element</h2>
+
+    <picture>
+      <source media="(min-width: 800px)" srcset="/Photo/A/1.jpg" />
+      <source
+        media="(min-width: 650px)"
+        srcset="https://www.w3schools.com/html/img_food.jpg"
+      />
+      <source
+        media="(min-width: 465px)"
+        srcset="https://www.w3schools.com/html/img_car.jpg"
+      />
+      <img
+        src="https://www.w3schools.com/html/img_girl.jpg"
+        style="width: auto"
+      />
+    </picture>
+
+    <p style="color: lime;">
+      Resize the browser to see different versions of the picture loading at
+      different viewport sizes. The browser looks for the first source element
+      where the media query matches the user's current viewport width, and
+      fetches the image specified in the srcset attribute.
+    </p>
+
+    <p>
+      The img element is required as the last child tag of the picture
+      declaration block. The img element is used to provide backward
+      compatibility for browsers that do not support the picture element, or if
+      none of the source tags matched.
+    </p>
+
+    <p>
+      <strong>Note:</strong> The picture element is not supported in IE12 and
+      earlier or Safari 9.0 and earlier.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooltip Arrows</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: purple;
+        counter-reset: a;
+      }
+      table {
+        width: 60%;
+        margin: auto;
+      }
+      table,
+      th,
+      td {
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 3px solid black;
+      }
+      tr:nth-child(even) {
+        background-color: peru;
+      }
+      tr:nth-child(odd) {
+        background-color: orangered;
+      }
+      a {
+        color: palegoldenrod;
+        text-shadow: 5px 5px 5px blue;
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+      }
+      a:visited {
+        color: red;
+      }
+      a:visited:hover {
+        background-color: white;
+        color: darkblue;
+        text-shadow: 5px 5px 5px lightblue;
+        font-size: 50px;
+      }
+      a:hover {
+        background-color: black;
+        text-shadow: 5px 5px 5px red;
+        color: lime;
+        font-size: 50px;
+      }
+      h4::before {
+        counter-increment: a;
+        content: Counter(a);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <a href="Bottom Arrow.html"><h4>Bottom Arrow</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Top Arrow.html"><h4>Top Arrow</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Left Arrow.html"><h4>Left Arrow</h4></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Right Arrow.html"><h4>Right Arrow</h4></a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

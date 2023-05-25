@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>outline</title>
+    <style>
+      * {
+        /* margin: 0; */
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: lightgrey;
+      }
+      p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        border: 3px solid blueviolet;
+      }
+
+      p.dotted {
+        outline-style: dotted;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.dashed {
+        outline-style: dashed;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.solid {
+        outline-style: solid;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.double {
+        outline-style: double;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.groove {
+        outline-style: groove;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.ridge {
+        outline-style: ridge;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.inset {
+        outline-style: inset;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+      p.outset {
+        outline-style: outset;
+        outline-color: tomato;
+        outline-width: 7px;
+        outline-offset: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        border: 2vw solid;
+        border-color: black aqua greenyellow red;
+        height: 300px;
+        width: 300px;
+
+        outline-style: ;
+      "
+    ></div>
+
+    <br /><br /><br />
+    <h2>The outline-style Property</h2>
+
+    <p class="dotted">A dotted outline</p>
+    <br /><br />
+    <p class="dashed">A dashed outline</p>
+    <br /><br />
+    <p class="solid">A solid outline</p>
+    <br /><br />
+    <p class="double">A double outline</p>
+    <br /><br />
+    <p class="groove">
+      A groove outline. The effect depends on the outline-color value.
+    </p>
+    <br /><br />
+    <p class="ridge">
+      A ridge outline. The effect depends on the outline-color value.
+    </p>
+    <br /><br />
+    <p class="inset">
+      An inset outline. The effect depends on the outline-color value.
+    </p>
+    <br /><br />
+    <p class="outset">
+      An outset outline. The effect depends on the outline-color value.
+    </p>
+    <br /><br />
+  </body>
+</html>

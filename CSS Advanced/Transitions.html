@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>transition</title>
+    <style>
+      .a {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+      }
+
+      .a:hover {
+        width: 300px;
+      }
+      /* B  */
+      .b {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s, height 4s;
+      }
+
+      .b:hover {
+        width: 300px;
+        height: 300px;
+      }
+
+      /* C */
+      .c {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+      }
+
+      #div1 {
+        transition-timing-function: linear;
+      }
+      #div2 {
+        transition-timing-function: ease;
+      }
+      #div3 {
+        transition-timing-function: ease-in;
+      }
+      #div4 {
+        transition-timing-function: ease-out;
+      }
+      #div5 {
+        transition-timing-function: ease-in-out;
+      }
+
+      .c:hover {
+        width: 300px;
+      }
+      /* D */
+      .d {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 3s;
+        transition-delay: 1s;
+      }
+
+      .d:hover {
+        width: 300px;
+      }
+      /* e */
+      .e {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s, height 2s, transform 2s;
+      }
+
+      .e:hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+      }
+      /* f */
+      .f {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+      }
+
+      .f:hover {
+        width: 300px;
+      }
+      /* g */
+      .g {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s linear 1s;
+      }
+
+      .g:hover {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- A -->
+    <h1>The transition Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+    <div class="a"></div>
+
+    <!-- B -->
+    <h1>The transition Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+
+    <div class="b"></div>
+
+    <!-- C -->
+    <h1>The transition-timing-function Property</h1>
+
+    <p>Hover over the div elements below, to see the different speed curves:</p>
+
+    <div class="c" id="div1">linear</div>
+    <br />
+    <div class="c" id="div2">ease</div>
+    <br />
+    <div class="c" id="div3">ease-in</div>
+    <br />
+    <div class="c" id="div4">ease-out</div>
+    <br />
+    <div class="c" id="div5">ease-in-out</div>
+    <br />
+
+    <!-- D -->
+    <h1>The transition-delay Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+
+    <div class="d"></div>
+
+    <p>
+      <b>Note:</b> The transition effect has a 1 second delay before starting.
+    </p>
+
+    <!-- E -->
+    <h1>Transition + Transform</h1>
+
+    <p>Hover over the div element below:</p>
+
+    <div class="e"></div>
+
+    <!-- F -->
+
+    <h1>The transition Properties Specified One by One</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+
+    <div class="f"></div>
+
+    <p>
+      <b>Note:</b> The transition effect has a 1 second delay before starting.
+    </p>
+
+    <!-- G -->
+    <h1>Using The transition Shorthand Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+
+    <div class="g"></div>
+
+    <p>
+      <b>Note:</b> The transition effect has a 1 second delay before starting.
+    </p>
+  </body>
+</html>

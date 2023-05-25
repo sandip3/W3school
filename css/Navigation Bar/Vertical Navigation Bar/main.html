@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: purple;
+      }
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        margin: 0 auto;
+        /* padding: 5px; */
+        border-collapse: collapse;
+        border: 3px solid black;
+        margin: 0 15px;
+      }
+
+      tr:nth-child(even) {
+        background-color: peru;
+      }
+
+      tr:nth-child(odd) {
+        background-color: orangered;
+      }
+
+      a {
+        color: palegoldenrod;
+        text-shadow: 5px 5px 5px blue;
+        text-decoration: none;
+        display: inline-block;
+        /* height: 100%; */
+        width: 100%;
+      }
+      a:visited {
+        color: red;
+      }
+      a:visited:hover {
+        background-color: white;
+        color: darkblue;
+        text-shadow: 5px 5px 5px lightblue;
+        font-size: 50px;
+      }
+      a:hover {
+        background-color: black;
+        color: lime;
+        text-shadow: 5px 5px 5px red;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>Number</td>
+        <td>Content</td>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td><a href="Vertical Navigation Bar.html">Vertical Navigation Bar</a></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><a href="Vertical Navigation Bar-2.html">Vertical Navigation Bar-2</a></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><a href="Full-height Fixed Vertical Navbar.html">Full-height Fixed Vertical Navbar</a></td>
+      </tr>
+    </table>
+  </body>
+</html>

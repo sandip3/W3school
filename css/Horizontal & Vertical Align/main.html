@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal & Vertical Align</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: purple;
+      }
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        margin: 0 auto;
+        /* padding: 5px; */
+        border-collapse: collapse;
+        border: 3px solid black;
+        margin: 0 15px;
+      }
+
+      tr:nth-child(even) {
+        background-color: peru;
+      }
+
+      tr:nth-child(odd) {
+        background-color: orangered;
+      }
+
+      a {
+        color: palegoldenrod;
+        text-shadow: 5px 5px 5px blue;
+        text-decoration: none;
+        display: inline-block;
+        /* height: 100%; */
+        width: 100%;
+      }
+      a:visited {
+        color: red;
+      }
+      a:visited:hover {
+        background-color: white;
+        color: darkblue;
+        text-shadow: 5px 5px 5px lightblue;
+        font-size: 50px;
+      }
+      a:hover {
+        background-color: black;
+        color: lime;
+        text-shadow: 5px 5px 5px red;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Number</th>
+        <th>Content</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td><a href="Center Align Elements.html">Center Align Elements</a></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><a href="Center Align Text.html">Center Align Text</a></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><a href="Center an Image.html">Center an Image</a></td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>
+          <a href="Left and Right Align - Using position.html"
+            >Right align with the position property</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>
+          <a href="Left and Right Align - Using float.html"
+            >Right align with the float property</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td>
+          <a
+            href="/w3school/css/float and clear/clear/modern clearfix hack.html"
+            >clearfix Hack</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td>
+          <a href="Center Vertically - Using padding.html"
+            >Center Vertically - Using padding</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>8.</td>
+        <td>
+          <a href="Center Vertically - Using text align.html"
+            >Center with padding and text-align</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>9.</td>
+        <td><a href="Center Vertically - Using line-height.html">Center Vertically - Using line-height</a></td>
+      </tr>
+      <tr>
+        <td>10.</td>
+        <td><a href="Center Vertically - Using position & transform.html">Center Vertically - Using position & transform</a></td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link</title>
+    <style>
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      /* this is for button  */
+      a:link,
+      a:visited {
+        background-color: #4936f4;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a:hover,
+      a:active {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <pre id="Bookmark">
+
+        Use the "A tag" element to define a link
+        Use the "href" attribute to define the link address
+        Use the target attribute to define where to open the linked document
+        Use the "IMG" element (inside "A tag") to use an image as a link
+        Use the "mailto": scheme inside the href attribute to create a link that opens the user's email program
+    
+    </pre>
+    <h1>html color</h1>
+
+    <hr />
+    <br />
+
+    <a href="https://www.google.com/ " target="_self">
+      google(target="_self")</a
+    >
+    <hr />
+    <br />
+    <a href="https://web.whatsapp.com/" target="_blank"
+      >whatsapp(target="_blank")</a
+    >
+    <hr />
+    <br />
+    <a href="https://www.w3schools.com/" target="_parent"
+      >w3schools(target="_parent")</a
+    >
+    <hr />
+    <br />
+    <a href="https://www.youtube.com/" target="_top">youtube(target="_top")</a>
+    <hr />
+    <br />
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+    <hr />
+    <br />
+
+    <h2>Relative URLs</h2>
+    <p><a href="/Photo/3.jpg" title="yo">HTML Images</a></p>
+    <p><a href="/Css/System.html">CSS Tutorial</a></p>
+    <hr />
+    <br />
+
+    <h2>Image as a Link</h2>
+
+    <p>The image below is a link. Try to click on it.</p>
+
+    <a href="/Project/1/index.html"
+      ><img
+        src="/Photo/4.jpg"
+        alt="HTML tutorial"
+        style="width: 80px; height: 80px"
+    /></a>
+    <hr />
+    <br />
+
+    <h2>Link to an Email Address</h2>
+
+    <p>
+      To create a link that opens in the user's email program (to let them send
+      a new email), use mailto: inside the href attribute:
+    </p>
+
+    <p><a href="mailto:Sm7405243902@gmail.com">Send email</a></p>
+    <hr />
+    <br />
+
+    <h2>Button as a Links</h2>
+
+    <p>Click the button to go to the HTML tutorial.</p>
+
+    <button onclick="document.location='/Photo/2.jpg'">HTML Tutorial</button>
+    <hr />
+    <br />
+
+    <h2>Link Titles</h2>
+    <p>
+      The title attribute specifies extra information about an element. The
+      information is most often shown as a tooltip text when the mouse moves
+      over the element.
+    </p>
+    <a
+      href="https://www.w3schools.com/html/"
+      title="Go to W3Schools HTML section"
+      >Visit our HTML Tutorial</a
+    >
+
+    <hr />
+    <br />
+    <a href="#Bookmark"> click this for Going top</a>
+    <hr />
+    <br />
+    <a href="Basic.html#b1">
+      click this for going to (different site)basic b1</a
+    >
+    <hr />
+    <br />
+    <pre style="font-size: 3vh;">
+
+
+    Use the id attribute (id="value") to define bookmarks in a page
+    Use the href attribute (href="#value") to link to the bookmark
+
+    </pre>
+    <hr />
+    <br />
+
+    
+  </body>
+</html>

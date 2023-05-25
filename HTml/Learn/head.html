@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define the character set used -->
+
+    <meta name="keywords" content="HTML, CSS" />
+    <!-- Define keywords for search engines -->
+
+    <meta name="description" content="Free Web tutorials" />
+    <!-- Define a description of your web page -->
+
+    <meta name="author" content="Sandip mishra" />
+    <!-- Define the author of a page -->
+
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <!-- Refresh document every 30 seconds -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Setting the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Head</title>
+
+    <base href="https://www.w3schools.com/" target="_blank" />
+    <!-- The <base> element specifies the base URL and/or target for all relative URLs in a page. -->
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>My Web Page</h1>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <h1>The base element</h1>
+
+    <p>
+      <img src="images/stickman.gif" width="24" height="39" alt="Stickman" /> -
+      Notice that we have only specified a relative address for the image. Since
+      we have specified a base URL in the head section, the browser will look
+      for the image at "https://www.w3schools.com/images/stickman.gif".
+    </p>
+
+    <p>
+      <a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens
+      in a new window, even if it has no target="_blank" attribute. This is
+      because the target attribute of the base element is set to "_blank".
+    </p>
+  </body>
+</html>

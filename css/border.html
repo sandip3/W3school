@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border</title>
+    <style>
+      .a {
+        /* border-color: red ; */
+        /* border-color: red greenyellow; */
+        /* border-color:red  greenyellow blueviolet; */
+        border-color: red lime blueviolet black;
+
+        /* border-style: dotted; */
+        /* border-style: dashed; */
+        border-style: solid;
+        /* border-style: double; */
+        /* border-style: groove; */
+        /* border-style: ridge; */
+        /* border-style: inset; */
+        /* border-style: outset; */
+        /* border-style: none; */
+        /* border-style: hidden; */
+        /* border-style: dotted dashed solid double; */
+
+        /* border-width: 20px; */
+        /* border-width: medium; */
+        /* border-width: thick; */
+        /* border-width: thin; */
+        border-width: 10px 5px;
+        /* border-width: 10px 5px 2px  ; */
+        /* border-width: 30px 20px 10px 5px ; */
+
+        /* border-radius: 10px; */
+        /* border-top-left-radius: 50px; */
+        /* border-top-right-radius: 50px; */
+        /* border-bottom-left-radius: 50px; */
+        /* border-bottom-right-radius: 50px; */
+        border-radius: 50px 80px;
+        /* border-radius: 50px 80px 0 ; */
+        /* border-radius: 50px 80px 0 30px; */
+
+        /* border: ; */
+      }
+      .b {
+        width: 0px;
+        height: 0px;
+        border: 200px solid rebeccapurple;
+        border-color: red greenyellow blueviolet black;
+        border-radius: 20px 50px 80px 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam
+      earum provident reprehenderit odit repellat fuga molestias. Aliquam fugit
+      distinctio explicabo ullam quam maxime tempore. Delectus minima modi
+      cumque sequi!
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+      "
+    >
+      <div>
+        <div style="border: 1vw solid red; width: 400px"></div>
+        <div
+          style="
+            border: 1vw solid red;
+            height: 300px;
+            width: 0px;
+            margin-left: 190px;
+          "
+        ></div>
+      </div>
+      <br />
+      <br />
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <br />
+      <br />
+      <div
+        style="
+          border: 2vw solid;
+          border-color: black aqua greenyellow red;
+          height: 300px;
+          width: 300px;
+        "
+      ></div>
+      <br />
+      <br />
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <br />
+      <br />
+      <div class="b"></div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="b"></div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>

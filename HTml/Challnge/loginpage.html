@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      * {
+        text-transform: capitalize;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(242, 65, 177);
+        display: flex;
+        justify-content: center;
+      }
+      form,
+      input {
+        margin: 10px;
+      }
+      input {
+        /* float: right; */
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: mediumvioletred; width: fit-content">
+      <form action="yo.php" autocomplete="on">
+        <label for="Name"> Name:-</label>
+        <input type="text" id="Name" value="enter the name" style="padding: 10px;" /><br />
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" value="enter the email" /><br />
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" value="enter the password" /><br />
+
+        <label for="no">Phone Number</label>
+        <input type="text" id="no" /><br />
+
+        <label for="Gender">gender:</label>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" />
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" />
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" />
+
+        <br />
+
+        <label for="language">language:</label>
+        <select name="language" id="lang">
+          <option value="sl" selected>select language</option>
+          <option value="guj">Gujrati</option>
+          <option value="Up">up</option>
+          <option value="hindi">hindi</option>
+        </select>
+        <br>
+
+        <label for="zip">zip code:</label>
+        <input type="text" id="zip" name="zip">
+
+        <br>
+
+        <label for="about">about</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+
+        <br />
+        <input type="submit" value="register" style="padding: 5px 10px" />
+
+      </form>
+
+      <form action="yo.html">
+        <input type="radio" name="yo">
+        <input type="radio" name="yo">
+        <input type="radio" name="yo">
+      </form>
+      
+    </div>
+  </body>
+</html>

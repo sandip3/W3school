@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced css</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      body {
+        background-color: purple;
+        counter-reset: a;
+      }
+      table {
+        width: 60%;
+        margin: auto;
+      }
+      table,
+      th,
+      td {
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 3px solid black;
+      }
+      tr:nth-child(even) {
+        background-color: peru;
+      }
+      tr:nth-child(odd) {
+        background-color: orangered;
+      }
+      a {
+        color: palegoldenrod;
+        text-shadow: 5px 5px 5px blue;
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+      }
+      a:visited {
+        color: red;
+      }
+      a:visited:hover {
+        background-color: white;
+        color: darkblue;
+        text-shadow: 5px 5px 5px lightblue;
+        font-size: 50px;
+      }
+      a:hover {
+        background-color: black;
+        text-shadow: 5px 5px 5px red;
+        color: lime;
+        font-size: 50px;
+      }
+      h4::before {
+        counter-increment: a;
+        content: Counter(a) ". ";
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <caption>
+          ADVANCED CSS
+        </caption>
+        <tr>
+          <th>Content</th>
+        </tr>
+        <tr>
+          <td>
+            <a href=" Rounded Corners/main.html"><h4>Rounded Corners</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Border Images.html "><h4>Border Images</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Backgrounds/main.html"><h4>Backgrounds</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="color/main.html"><h4>COLOR</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Color Keywords/main.html"><h4>Color Keywords</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Gradients/main.html"><h4>Gradients</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Shadow Effects/main.html"><h4>CSS Shadow Effects</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Text Effects/main.html"><h4>Text Effects</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="2D Transforms/main.html"><h4>2D Transforms</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="3D Transforms/main.html"><h4>3D Transforms</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Transitions.html"><h4>Transitions</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Animations/main.html"><h4>Animations</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Tooltip/main.html"><h4>Tooltip</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Image Reflection/main.html"><h4>Image Reflection</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Reflection With Gradient.html"
+              ><h4>Reflection With Gradient</h4></a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="object-fit.html"><h4>object-fit</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="object-position.html"><h4>object-position</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Multiple Columns/main.html"><h4>Multiple Columns</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="User Interface/main.html"><h4>User Interface</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Variables/main.html"><h4>Variables</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Media Queries/main.html"><h4>Media Queries</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Flexbox.html"><h4>Flexbox</h4></a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Grid/main.html"><h4>Grid</h4></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

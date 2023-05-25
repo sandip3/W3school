@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>link</title>
+    <style>
+      /* unvisited link */
+      a:link {
+        color: red;
+      }
+
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+
+      button {
+        border-radius: 2vh;
+        box-shadow: inset;
+      }
+
+      button a:link,
+      button a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 2vh;
+      }
+
+      button a:hover,
+      button a:active {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <b
+        ><a href="/w3school/css/main.html" target="_blank"
+          >This is a link for main</a
+        ></b
+      >
+    </p>
+    <p>
+      <b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS
+      definition in order to be effective.
+    </p>
+    <p>
+      <b>Note:</b> a:active MUST come after a:hover in the CSS definition in
+      order to be effective.
+    </p>
+    <button><a href="/w3school/css/main.html">main</a></button>
+  </body>
+</html>

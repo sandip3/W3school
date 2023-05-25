@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@keyframes</title>
+    <style>
+      .yo {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: yo;
+        animation-duration: 4s;
+      }
+
+      @keyframes yo {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Animation</h1>
+
+    <div class="yo"></div>
+
+    <p>
+      <b>Note:</b> When an animation is finished, it goes back to its original
+      style.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styling Input Fields</title>
+    <style>
+      /* for all input */
+      /* input {
+        width: 100%;
+      } */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        margin-top: 7vh;
+      }
+      form {
+        width: 25%;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-align: center;
+      }
+      input[type="password"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-align: center;
+      }
+      input[type="number"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+      <div>
+          <form>
+          <h2 style="text-align: center">A full-width input field</h2>
+          <br>
+        <label for="fname">First Name</label>
+        <br />
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <br />
+        <label for="pass">password</label>
+        <input type="password" id="pass" />
+        <br />
+        <br />
+
+        <input type="number" />
+        <br />
+        <br />
+
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>
